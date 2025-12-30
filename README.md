@@ -31,9 +31,9 @@ Se você quer usar um domínio customizado:
 - Se tiver assets locais (imagens, fontes, etc.), coloque-os na raiz ou em uma pasta e confirme que as referências no `index.html` são relativas (ex: `./assets/img.jpg`).
 
 ## Google Analytics 🔍
-- Adicionei um snippet do Google Analytics (`gtag.js`) no `index.html` com um placeholder `G-XXXXXXXXXX`.
-- Substitua `G-XXXXXXXXXX` pelo seu Measurement ID (formato `G-XXXXXXX`) no `index.html` para começar a coletar visitas.
-- Recomendo habilitar a anonimização de IP (já inserida com `anonymize_ip: true`) e atualizar a política de privacidade/consentimento conforme necessário para cumprir com LGPD/GDPR.
+- Adicionei um snippet do Google Analytics (`gtag.js`) no `index.html` com o Measurement ID `G-QCJ32S4Z0P`.
+- O Google Analytics **é carregado somente se o visitante aceitar** o banner de cookies que aparece na primeira visita; se ele recusar, o GA não será executado.
+- Habilitamos `anonymize_ip: true` por padrão para ajudar conformidade com LGPD/GDPR. Veja `privacy.html` para a política de privacidade simples incluída no projeto.
 
 ---
 
